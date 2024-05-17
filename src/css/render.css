@@ -108,3 +108,146 @@
       width: 48px;
     }
   }
+
+  .gallery-item {
+    border: 1px solid #808080;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  
+  .gallery-item-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .gallery-item-info {
+    padding: 4px;
+    background-color: white;
+  }
+  
+  .gallery-item-info-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .gallery-item-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .gallery-item-info-item .title {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .load-more {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 16px;
+    width: 125px;
+    height: 40px;
+    background: #4e75ff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .load-more:hover {
+    background-color: #2563eb;
+  }
+  
+  .is-hidden {
+    display: none;
+  }
+  
+ .loader {
+    display: none;
+    text-align: center;
+  }
+  
+  .loader.is-hidden {
+    display: block;
+  }
+
+  .gallery-item {
+    border: 1px solid #808080;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  
+  .gallery-item-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .gallery-item-info {
+    padding: 4px;
+    background-color: white;
+  }
+  
+  .gallery-item-info-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .gallery-item-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .gallery-item-info-item .title {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .load-more {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 125px;
+    height: 40px;
+    background: #4e75ff;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .load-more:hover {
+    background-color: #2563eb;
+  }
+  
+  .is-hidden {
+    display: none;
+  }
+  
+  .loader {
+    display: none;
+    text-align: center;
+  }
+  
+  .loader.is-hidden {
+    display: block;
+  }
+  
+  #searchform input[name="searchinput"] {
+    padding: 8px 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
